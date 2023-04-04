@@ -1,13 +1,16 @@
+/* Sets the global baseline for formatting */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Gives the body its background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Sets the parameters for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* The main text in the header (top left of the screen) */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Lets the 'seo' in 'Horiseon' be a diferent color */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -32,6 +37,8 @@ body {
     font-size: 20px;
 }
 
+/* The next two apply to everything in the <div> inside the header section */
+/* Specifically the parameters for the list that appears in it */
 .header div ul {
     list-style-type: none;
 }
@@ -41,15 +48,19 @@ body {
     margin-left: 25px;
 }
 
+/* Sets the apearance of the links that appear at the top of the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets the apearance of the blocks of text towards the bottom of the webpage */
 p {
     font-size: 16px;
 }
 
+/* Puts the mentioned picture on the screen */
+/* All the details for the image are here, so in the html file all we do is create a hero section */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +70,7 @@ p {
     background-position: center;
 }
 
+/* The next two allow a picture to appear to the left or right of a block of text depending on which you use */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +81,14 @@ p {
     margin-left: 25px;
 }
 
+/* Defines the section seen towards the bottom of the webpage */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Defines the section seen in the bottom right of the webpage */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +100,7 @@ p {
     background-color: #2589bd;
 }
 
+/* These next three define the three subsections of benifits */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +116,7 @@ p {
     color: #ffffff;
 }
 
+/* The next three define the header text of these three subsections */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +132,7 @@ p {
     text-align: center;
 }
 
+/* The next three define the parameters of the images in these three subsections */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +151,7 @@ p {
     max-width: 150px;
 }
 
+/* The next three define the three subsections in the content section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +179,7 @@ p {
     color: #ffffff;
 }
 
+/* The next three define the parameters for the images in the content section */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -173,6 +192,7 @@ p {
     max-height: 200px;
 }
 
+/* The next three define the header text of the three subsectinos for the content section */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -188,6 +208,7 @@ p {
     font-size: 36px;
 }
 
+/* Defines the parameters for the footer */
 .footer {
     padding: 30px;
     clear: both;
